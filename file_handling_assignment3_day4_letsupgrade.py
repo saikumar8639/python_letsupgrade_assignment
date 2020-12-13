@@ -1,0 +1,18 @@
+info=open("word.txt","w+")
+info.write("I LOVE LETSGRADEUP")
+info.close()
+info=open("word.txt","r+")
+s=info.read()
+print(s)
+info.close()
+info=open("word.txt","a")
+info.write(".IAM LEARNING PYTHON. MY FACULTY NAME IS SAI KIRAN .")
+info.close()
+info=open("word.txt","a")
+info.close()
+info=open("word.txt","r")
+s=info.read()
+print(s)
+info.close()
+
+
